@@ -1,0 +1,10 @@
+name: "Grid Virtual Storage"
+description: "Emulation of prosument virtual energy storage that is legacy offer for Polish citizens for connecting photovoltaics to the grid"
+version: "0.0.1-SNAPSHOT"
+slug: "grid-virtual-storage"
+init: false
+arch:
+  - amd64
+startup: services
+ports:
+  8000/tcp: 8000
