@@ -1,1 +1,1 @@
-FROM techwolfpl/grid-virtual-storage
+FROM techwolfpl/grid-virtual-storage:latest
