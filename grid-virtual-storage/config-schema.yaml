@@ -1,0 +1,29 @@
+mqttServerUrl:
+  name: "URL of the MQTT server"
+  required: true
+  default: "mqtt://localhost:1883"
+  example: "mqtt://your-mqtt-server:1883"
+
+mqttUsername:
+  name: "MQTT server username"
+  required: true
+  default: "your_mqtt_username"
+  example: "your_mqtt_username"
+
+mqttPassword:
+  name: "MQTT server password"
+  required: true
+  default: "your_mqtt_password"
+  example: "your_mqtt_password"
+
+forwardEnergyTopic:
+  name: "Topic name for forward energy"
+  required: true
+  default: "energy/forward"
+  example: "energy/forward"
+
+reverseEnergyTopic:
+  name: "Topic name for reverse energy"
+  required: true
+  default: "energy/reverse"
+  example: "energy/reverse"
