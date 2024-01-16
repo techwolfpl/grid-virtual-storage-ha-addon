@@ -15,4 +15,15 @@ ports:
 ingress: true
 ingress_port: 8080
 homeassistant_api: true
-schema: "config-schema.yaml"
+options:
+  mqttServerUrl: "mqtt://localhost"
+  mqttUsername: "username"
+  mqttPassword: "password"
+  forwardEnergyTopic: "/some/topic"
+  reverseEnergyTopic: "/some/topic"
+schema:
+  mqttServerUrl: "str?"
+  mqttUsername: "str?"
+  mqttPassword: "str?"
+  forwardEnergyTopic: "str?"
+  reverseEnergyTopic: "str?"
