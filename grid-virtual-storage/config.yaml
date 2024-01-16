@@ -16,7 +16,7 @@ ingress: true
 ingress_port: 8080
 homeassistant_api: true
 options:
-  mqttServerUrl: "mqtt://localhost"
+  mqttServerUrl: "tcp://localhost"
   mqttUsername: "username"
   mqttPassword: "password"
   forwardEnergyTopic: "/some/topic"
