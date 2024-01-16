@@ -14,3 +14,4 @@ ports:
   8080/tcp: 8080
 legacy: true
 ingress: true
+ingress_port:8080
