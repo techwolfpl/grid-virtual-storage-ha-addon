@@ -6,5 +6,9 @@ init: false
 arch:
   - amd64
 startup: services
+panel_icon: "mdi:transmission-tower-import"
+panel_admin: true
+panel_title: "Grid Virtual Storage"
+webui: "http://[HOST]:[PORT:8080]"
 ports:
   8000/tcp: 8000
