@@ -12,28 +12,7 @@ panel_title: "Grid Virtual Storage"
 webui: "http://[HOST]:[PORT:8080]"
 ports:
   8080/tcp: 8080
-legacy: true
 ingress: true
 ingress_port: 8080
 homeassistant_api: true
-options:
-  mqttServerUrl:
-    required: true
-    description: "URL of the MQTT server"
-    default: "mqtt://localhost:1883"
-  mqttUsername:
-    required: true
-    description: "MQTT server username"
-    default: "your_mqtt_username"
-  mqttPassword:
-    required: true
-    description: "MQTT server password"
-    default: "your_mqtt_password"
-  forwardEnergyTopic:
-    required: true
-    description: "Topic name for forward energy"
-    default: "energy/forward"
-  reverseEnergyTopic:
-    required: true
-    description: "Topic name for reverse energy"
-    default: "energy/reverse"
+schema: "config-schema.yaml"
