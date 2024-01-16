@@ -15,3 +15,25 @@ ports:
 legacy: true
 ingress: true
 ingress_port: 8080
+homeassistant_api: true
+options:
+  mqtt_server_url:
+    required: true
+    description: "URL of the MQTT server"
+    default: "mqtt://localhost:1883"
+  mqtt_username:
+    required: false
+    description: "MQTT server username"
+    default: "your_username"
+  mqtt_password:
+    required: false
+    description: "MQTT server password"
+    default: "your_password"
+  forward_energy_topic:
+    required: true
+    description: "Topic name for forward energy"
+    default: "energy/forward"
+  reverse_energy_topic:
+    required: true
+    description: "Topic name for reverse energy"
+    default: "energy/reverse"
