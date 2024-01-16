@@ -12,3 +12,5 @@ panel_title: "Grid Virtual Storage"
 webui: "http://[HOST]:[PORT:8080]"
 ports:
   8000/tcp: 8000
+legacy: true
+ingress: true
