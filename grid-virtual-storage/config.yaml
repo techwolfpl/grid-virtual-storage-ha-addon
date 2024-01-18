@@ -1,6 +1,6 @@
 name: "Grid Virtual Storage"
 description: "Emulation of prosument virtual energy storage that is legacy offer for Polish citizens for connecting photovoltaics to the grid"
-version: "0.0.5"
+version: "0.0.6"
 slug: "grid-virtual-storage"
 init: false
 arch:
@@ -21,9 +21,11 @@ options:
   mqttPassword: "password"
   forwardEnergyTopic: "/some/topic"
   reverseEnergyTopic: "/some/topic"
+  periodicalBalancing: true
 schema:
   mqttServerUrl: "str?"
   mqttUsername: "str?"
   mqttPassword: "str?"
   forwardEnergyTopic: "str?"
   reverseEnergyTopic: "str?"
+  periodicalBalancing: "bool"
