@@ -5,6 +5,7 @@ slug: "grid-virtual-storage"
 init: false
 arch:
   - amd64
+  - arm64
 startup: services
 panel_icon: "mdi:transmission-tower-import"
 panel_admin: true
