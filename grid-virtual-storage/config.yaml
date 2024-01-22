@@ -1,6 +1,6 @@
 name: "Grid Virtual Storage"
 description: "Emulation of prosument virtual energy storage that is legacy offer for Polish citizens for connecting photovoltaics to the grid"
-version: "0.0.9"
+version: "0.0.9.1"
 slug: "grid-virtual-storage"
 init: false
 arch:
