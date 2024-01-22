@@ -31,3 +31,4 @@ schema:
   forwardEnergyTopic: "str?"
   reverseEnergyTopic: "str?"
   periodicalBalancing: "bool"
+  periodicalFlushCron: "str?"
