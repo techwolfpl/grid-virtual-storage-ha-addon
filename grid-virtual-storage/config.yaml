@@ -23,6 +23,7 @@ options:
   forwardEnergyTopic: "/some/topic"
   reverseEnergyTopic: "/some/topic"
   periodicalBalancing: true
+  periodicalFlushCron: "58 59 * * * *"
 schema:
   mqttServerUrl: "str?"
   mqttUsername: "str?"
